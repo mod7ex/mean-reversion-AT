@@ -1,0 +1,39 @@
+//@version=5
+strategy("Mean reversion", overlay=true, default_qty_type=strategy.percent_of_equity, default_qty_value=1)
+
+length = 7
+
+entry_deviation = 2.0 
+sl_deviation = 3.0 
+tp_deviation = 1.0 
+
+sma_low = ta.sma(low, length)
+lower_entry = sma_low - entry_deviation * ta.stdev(low, length)
+lower_sl = sma_low - sl_deviation * ta.stdev(low, length)
+lower_tp = sma_low - tp_deviation * ta.stdev(low, length)
+
+sma_high = ta.sma(high, length)
+higher_entry = sma_high + entry_deviation * ta.stdev(high, length)
+higher_sl = sma_high + sl_deviation * ta.stdev(high, length)
+higher_tp = sma_high + tp_deviation * ta.stdev(high, length)
+
+co = ta.crossover(high, higher_entry)
+cu = ta.crossunder(low, lower_entry)
+
+// Define strategy entry
+
+if (cu)
+    strategy.entry("buy", strategy.long, comment="Buy signal")
+if (co)
+    strategy.entry("sell", strategy.short, comment="Sell signal")
+
+// Define strategy exit
+// Long position
+if (strategy.position_size > 0)
+    if (low < lower_sl or high > lower_tp)
+        strategy.close("buy")
+
+// Short position
+if (strategy.position_size < 0)
+    if (low < higher_tp or high > higher_sl)
+        strategy.close("sell")
