@@ -22,7 +22,12 @@
         "-1": "Sell"
     },
 
+    "POSITIONS_SHORTCUT": {
+        "1": "L",
+        "-1": "H"
+    },
+
     "METRICS_DICT": {
-        
+
     }
 }
