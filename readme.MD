@@ -23,5 +23,6 @@ if(CMP < MA(LOW) - 2STD(LOW))
 
 - [TODO] try also EMA
 - [TODO] gather constants in a separate file
+- [TODO] work on precision (CFD, Futures) prices, pips ...
 
 ### **Python gives more flexibility and can be relied on when backtesting or implementing strategies (better than pine script)**
