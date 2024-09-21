@@ -1,0 +1,28 @@
+{
+    "WINDOW": 7,
+
+    "PNL": {
+        "WIN": 1,
+        "LOSS": -1
+    },
+
+    "SIGNALS": {
+        "BUY": 1,
+        "SELL": -1
+    },
+
+    "PRICE_DEVIATION": {
+        "SL": 3, 
+        "ENTRY": 2, 
+        "TP": 1 
+    },
+
+    "POSITIONS_NATURE": {
+        "1": "Buy",
+        "-1": "Sell"
+    },
+
+    "METRICS_DICT": {
+        
+    }
+}
