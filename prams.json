@@ -14,7 +14,7 @@
     "PRICE_DEVIATION": {
         "SL": 3, 
         "ENTRY": 2, 
-        "TP": 1 
+        "TP": 1
     },
 
     "POSITIONS_NATURE": {
@@ -25,9 +25,5 @@
     "POSITIONS_SHORTCUT": {
         "1": "L",
         "-1": "H"
-    },
-
-    "METRICS_DICT": {
-
     }
 }
