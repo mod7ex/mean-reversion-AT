@@ -11,10 +11,11 @@
         "SELL": -1
     },
 
+
     "PRICE_DEVIATION": {
-        "SL": 3, 
+        "SL": 3.5, 
         "ENTRY": 2, 
-        "TP": 1
+        "TP": 1.5
     },
 
     "POSITIONS_NATURE": {
