@@ -11,7 +11,6 @@
         "SELL": -1
     },
 
-
     "PRICE_DEVIATION": {
         "SL": 3.5, 
         "ENTRY": 2, 
@@ -26,5 +25,10 @@
     "POSITIONS_SHORTCUT": {
         "1": "L",
         "-1": "H"
+    },
+
+    "FIGSIZE": {
+        "WIDTH": 20,
+        "HEIGHT": 5
     }
 }

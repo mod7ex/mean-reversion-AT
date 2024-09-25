@@ -1,6 +1,6 @@
-### We can play with Strategy settings like the ticker and constants to see if we get better results
+> **We can play with Strategy settings like the ticker and constants to see if we get better results**
 
-> **The best Params found for `ticker=GC=F` are the following**
+- **The best Params found for `ticker=GC=F` are the following**
 
 ```py
 PRICE_DEVIATION = {
@@ -10,7 +10,7 @@ PRICE_DEVIATION = {
 }
 ```
 
-> **The best Params found for `ticker=NQ=F` are the following**
+- **The best Params found for `ticker=NQ=F` are the following**
 
 ```py
 "PRICE_DEVIATION": {
@@ -20,9 +20,7 @@ PRICE_DEVIATION = {
 }
 ```
 
-
-
-### Strategy (TF = 1h, WINDOW = 7)
+- **Strategy (TF = 1h, WINDOW = 7)**
 ```
 if(CMP > MA(High) + 2STD(High)) 
     sell with SL == TP == 1STD(High)
@@ -32,6 +30,4 @@ if(CMP < MA(LOW) - 2STD(LOW))
 
 > **strategy written in pinescript should not be taken into consideration**
 
-- [TODO] try also EMA
-
-### **Python gives more flexibility and can be relied on when backtesting or implementing strategies (better than pine script)**
+> **Python gives more flexibility and can be relied on when backtesting or implementing strategies (better than pine script)**
