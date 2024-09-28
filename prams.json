@@ -12,9 +12,9 @@
     },
 
     "PRICE_DEVIATION": {
-        "SL": 3.5, 
+        "SL": 3, 
         "ENTRY": 2, 
-        "TP": 1.5
+        "TP": 0.5
     },
 
     "POSITIONS_NATURE": {

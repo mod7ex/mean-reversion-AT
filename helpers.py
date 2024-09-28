@@ -37,27 +37,27 @@ class Trade:
 
     @entry.setter
     def entry(self, value):
-        if isinstance(value, float) or isinstance(value, int) :
+        if isinstance(value, float | int):
             if self.__on:
                 self.__entry = value
         else:
-            raise ValueError("Entry must be a floating number")
+            raise ValueError("Entry is invalid")
 
     @tp.setter
     def tp(self, value):
-        if isinstance(value, float) or isinstance(value, int) :
+        if isinstance(value, float | int):
             if self.__on:
                 self.__tp = value
         else:
-            raise ValueError("TP must be a floating number")
+            raise ValueError("TP is invalid")
 
     @sl.setter
     def sl(self, value):
-        if isinstance(value, float) or isinstance(value, int) :
+        if isinstance(value, float | int):
             if self.__on:
                 self.__sl = value
         else:
-            raise ValueError("SL must be a floating number")
+            raise ValueError("SL is invalid")
         
     def On(self):
         self.__on = True
