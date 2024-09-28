@@ -18,8 +18,8 @@
     },
 
     "POSITIONS_NATURE": {
-        "1": "Buy",
-        "-1": "Sell"
+        "1": "Long",
+        "-1": "Short"
     },
 
     "POSITIONS_SHORTCUT": {
