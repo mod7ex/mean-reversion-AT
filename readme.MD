@@ -1,25 +1,5 @@
 > **We can play with Strategy settings like the ticker and constants to see if we get better results**
 
-- **The best Params found for `ticker=GC=F` are the following**
-
-```py
-PRICE_DEVIATION = {
-    'ENTRY': 2,
-    'SL': 1, 
-    'TP': 1 
-}
-```
-
-- **The best Params found for `ticker=NQ=F` are the following**
-
-```py
-"PRICE_DEVIATION": {
-    "SL": 3.5, 
-    "ENTRY": 2, 
-    "TP": 1.5
-}
-```
-
 - **Strategy (TF = 1h, WINDOW = 7)**
 ```
 if(CMP > MA(High) + 2STD(High)) 
