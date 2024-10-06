@@ -1,17 +1,18 @@
 {
-    "WINDOW": 21,
-
-    "PNL": {
-        "WIN": 1,
-        "LOSS": -1
-    },
+    "WINDOW": 31,
 
     "SIGNALS": {
         "BUY": 1,
         "SELL": -1
     },
 
-    "PRICE_DEVIATION": {
+    "LOWER_PRICE_DEVIATION": {
+        "SL": 7.2, 
+        "ENTRY": 6.2, 
+        "TP": 3.2
+    },
+
+    "HIGHER_PRICE_DEVIATION": {
         "SL": 6, 
         "ENTRY": 5, 
         "TP": 2
@@ -29,6 +30,7 @@
 
     "FIGSIZE": {
         "WIDTH": 20,
-        "HEIGHT": 5
+        "HEIGHT": 5,
+        "LEN": 5
     }
 }
