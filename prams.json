@@ -1,5 +1,5 @@
 {
-    "WINDOW": 7,
+    "WINDOW": 21,
 
     "PNL": {
         "WIN": 1,
@@ -12,9 +12,9 @@
     },
 
     "PRICE_DEVIATION": {
-        "SL": 3, 
-        "ENTRY": 2.2, 
-        "TP": 0.5
+        "SL": 6, 
+        "ENTRY": 5, 
+        "TP": 2
     },
 
     "POSITIONS_NATURE": {
