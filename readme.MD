@@ -3,5 +3,3 @@
 > **strategy written in pinescript should not be taken into consideration**
 
 > **Python gives more flexibility and can be relied on when backtesting or implementing strategies (better than pine script)**
-
-> What is adj close ?

@@ -1,0 +1,70 @@
+{
+    "POSITIONS_SHORTCUT": {
+        "1": "L",
+        "-1": "H"
+    },
+
+    "SIGNALS": {
+        "BUY": 1,
+        "SELL": -1
+    },
+
+    "POSITIONS_NATURE": {
+        "1": "Long",
+        "-1": "Short"
+    },
+
+    "FIGSIZE": {
+        "WIDTH": 20,
+        "HEIGHT": 5,
+        "LEN": 5
+    },
+
+    "GC=F": {
+        "LOWER_PRICE_DEVIATION": {
+            "SL": 6, 
+            "ENTRY": 5, 
+            "TP": 2
+        },
+    
+        "HIGHER_PRICE_DEVIATION": {
+            "SL": 5, 
+            "ENTRY": 4, 
+            "TP": 2
+        },
+    
+        "WINDOW": 31
+    },
+
+    "NQ=F": {
+        "LOWER_PRICE_DEVIATION": {
+            "SL": 6, 
+            "ENTRY": 5, 
+            "TP": 2
+        },
+    
+        "HIGHER_PRICE_DEVIATION": {
+            "SL": 5, 
+            "ENTRY": 4, 
+            "TP": 2
+        },
+    
+        "WINDOW": 31
+    },
+
+    "YM=F": {
+        "LOWER_PRICE_DEVIATION": {
+            "SL": 6, 
+            "ENTRY": 5, 
+            "TP": 2
+        },
+    
+        "HIGHER_PRICE_DEVIATION": {
+            "SL": 5, 
+            "ENTRY": 4, 
+            "TP": 2
+        },
+    
+        "WINDOW": 31
+    }
+}
