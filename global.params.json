@@ -20,51 +20,54 @@
         "LEN": 5
     },
 
-    "GC=F": {
-        "LOWER_PRICE_DEVIATION": {
-            "SL": 6, 
-            "ENTRY": 5, 
-            "TP": 2
+    "Tickers": {
+        "GC=F": {
+            "LOWER_PRICE_DEVIATION": {
+                "SL": 6, 
+                "ENTRY": 5, 
+                "TP": 2
+            },
+        
+            "HIGHER_PRICE_DEVIATION": {
+                "SL": 5, 
+                "ENTRY": 4, 
+                "TP": 2
+            },
+        
+            "WINDOW": 31
         },
-    
-        "HIGHER_PRICE_DEVIATION": {
-            "SL": 5, 
-            "ENTRY": 4, 
-            "TP": 2
-        },
-    
-        "WINDOW": 31
-    },
 
-    "NQ=F": {
-        "LOWER_PRICE_DEVIATION": {
-            "SL": 6, 
-            "ENTRY": 5, 
-            "TP": 2
+        "NQ=F": {
+            "LOWER_PRICE_DEVIATION": {
+                "SL": 6, 
+                "ENTRY": 5, 
+                "TP": 2
+            },
+        
+            "HIGHER_PRICE_DEVIATION": {
+                "SL": 5, 
+                "ENTRY": 4, 
+                "TP": 2
+            },
+        
+            "WINDOW": 31
         },
-    
-        "HIGHER_PRICE_DEVIATION": {
-            "SL": 5, 
-            "ENTRY": 4, 
-            "TP": 2
-        },
-    
-        "WINDOW": 31
-    },
 
-    "YM=F": {
-        "LOWER_PRICE_DEVIATION": {
-            "SL": 6, 
-            "ENTRY": 5, 
-            "TP": 2
-        },
-    
-        "HIGHER_PRICE_DEVIATION": {
-            "SL": 5, 
-            "ENTRY": 4, 
-            "TP": 2
-        },
-    
-        "WINDOW": 31
+        "YM=F": {
+            "LOWER_PRICE_DEVIATION": {
+                "SL": 6, 
+                "ENTRY": 5, 
+                "TP": 2
+            },
+        
+            "HIGHER_PRICE_DEVIATION": {
+                "SL": 5, 
+                "ENTRY": 4, 
+                "TP": 2
+            },
+        
+            "WINDOW": 31
+        }
+
     }
 }
