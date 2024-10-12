@@ -1,10 +1,16 @@
 class Trade:
-    def __init__(self, entry = 0.0, tp = 0.0, sl = 0.0, on = False):
+    def __init__(self, entry = 0.0, tp = 0.0, sl = 0.0, on = False, payload = None):
         # Private variables
         self.__on = on
         self.__entry = entry
         self.__tp = tp
         self.__sl = sl
+        self.__payload = payload
+
+    @property
+    def payload(self):
+        """Getter for payload."""
+        return self.__payload
 
     @property
     def entry(self):
@@ -34,6 +40,12 @@ class Trade:
     @property
     def is_sell(self):
         return self.__tp < self.__sl
+    
+    @property
+    def rrr(self):
+        if self.__on:
+            return abs((self.tp - self.entry)/(self.sl - self.entry))
+        else: return None
 
     @entry.setter
     def entry(self, value):
@@ -67,3 +79,4 @@ class Trade:
         self.__tp = 0
         self.__sl = 0
         self.__on = False
+        self.__payload = None
