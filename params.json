@@ -1,0 +1,36 @@
+{
+    "WINDOW": 21,
+
+    "SIGNALS": {
+        "BUY": 1,
+        "SELL": -1
+    },
+
+    "LOWER_PRICE_DEVIATION": {
+        "SL": 5, 
+        "ENTRY": 4.5, 
+        "TP": 2
+    },
+
+    "HIGHER_PRICE_DEVIATION": {
+        "SL": 5, 
+        "ENTRY": 4.5, 
+        "TP": 2
+    },
+
+    "POSITIONS_NATURE": {
+        "1": "Long",
+        "-1": "Short"
+    },
+
+    "POSITIONS_SHORTCUT": {
+        "1": "L",
+        "-1": "H"
+    },
+
+    "FIGSIZE": {
+        "WIDTH": 20,
+        "HEIGHT": 5,
+        "LEN": 5
+    }
+}
